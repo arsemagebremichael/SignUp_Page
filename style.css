@@ -9,8 +9,7 @@
 
 body{
     font-family: 'pop';
-    background-color: #F5E9FF;
-    /* overflow: hidden; */
+    background-color: #F5E9FF; 
 
 }
 
@@ -35,53 +34,38 @@ h1{
     width: 100%;
     height: 84%;
     object-fit: cover;
-    /* padding: 0 20px ; */
+
     
 }
 .right{
-    
-    /* margin-left: 100px; */
     margin-top: 5%;
     align-items: center;
     height: 100%;
     width: 50%;
-    border-left: 1px solid rgb(202, 172, 202);
-
-    /* padding-top: 0px; */
-    /* padding-right: 0; */
-}
+    border-left: 1px solid rgb(202, 172, 202);}
 
 h2{
-    margin-left: 13%;
-}
+    margin-left: 13%;}
+
 #p1{
     font-weight: bold;
     margin-left: 13%;
     margin-bottom: 10%;
-    color: rgb(71, 68, 68);
-}
+    color: rgb(71, 68, 68);}
 
 .left{
     align-items: center;
     justify-content: center;
-    /* display: block; */
     width: 50%;
-    height: 100%;
-    /* padding: 10px; */
+    height: 100%;}
 
-}
-
-
-input{ 
-   
+input{   
     height: 40px;
     margin-bottom: 15px;
     border: 1px gray;
     font-size: medium;
     outline-color: rgb(151, 72, 163);
-    border-radius: 7px;
-}
-
+    border-radius: 7px;}
 
 .side{
     margin-left: 12%;
@@ -89,35 +73,33 @@ input{
     color: rgb(71, 68, 68);
     display: flex;
     gap: 3%;
-    font-size: small;
+    font-size: small;}
 
-}
 .rest{
     margin-left: 12%;
     margin-top: 3%;
     color: rgb(71, 68, 68);
-    font-size: small;
+    font-size: small;}
 
-}
 #email{
-    width: 490px;
-}
+    width: 490px;}
+
 #password{
-    width: 490px;
-}
+    width: 490px;}
+
 .eye{
     width: 100;
     position: relative;
-    display: inline-block;
-}
+    display: inline-block;}
+
 .eye i{
     position: absolute;
     top: 0;
     right: 0;
     padding-right: 10px;
     padding-top: 15px;
-    cursor: pointer;
-}
+    cursor: pointer;}
+
 #button{
     margin-top: 2%;
     width: 490px;
@@ -127,13 +109,13 @@ input{
     border: none;
     font-size: medium;
     cursor: pointer; 
-    border-radius: 7px;
-}
+    border-radius: 7px;}
+
 #button:hover{
     background-color: white;
     color: rgb(155, 9, 178);
-    border: 2px solid rgb(155, 9, 178);
-}
+    border: 2px solid rgb(155, 9, 178);}
+
 .or{
     position: relative;
     top: 50%;
@@ -142,39 +124,30 @@ input{
     color: darkgrey;
     font-size: 100%;
     align-items: center;
-    font-weight: 700;
-
-}
+    font-weight: 700;}
 
 .or:before{
     content: '';
     background-color: rgb(206, 194, 194);
     height: 1px;
     margin-left: 12%;
-    width: 35%;
-    align-items: center;
+    width: 30%;
+    align-items: center;}
 
-
-}
 .or:after{
     content: '';
     background-color: rgb(206, 194, 194);
     height: 1px;
     width: 27%;
-    align-items: center;
+    align-items: center;}
 
-
-
-}
 #p3{
+   text-align: center;}
 
-    text-align: center;
-}
 #p3 a{
     text-decoration: none;
     font-weight: bold;
-    color: rgb(155, 9, 178);
-}
+    color: rgb(155, 9, 178);}
 
 
 #p4{
@@ -185,35 +158,34 @@ input{
 .icons{
     margin-top: 30px;
     display: flex;
-    gap: 20%;
-    margin-left: 27%;
+    gap: 10%;
     border-width: 10%;
-}
-.icons img{
-    background-color: white;
-    height: 30px;
-    width: 30px;
+    justify-content: center;
+    margin-right: 10% ;}
 
-}
+.icons img{
+    justify-content: center;
+    border-width: 20px;
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 7px;}
+
 #google{
     width: 26px;
     height: 26px;
     border: none;
-    color: white;
-}
+    color: white;}
+
 #facebook{
     width: 26px;
     height: 26px;
-
     border: none;
     color: white;
-    gap: 30px;
+    gap: 30px;}
 
-}
 #apple{
     width: 26px;
     height: 26px;
     justify-content: center;
     border: none;
-    color: white;
-}
+    color: white;}
